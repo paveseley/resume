@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & family= Roboto+Condensed:ital,wght@1,300 & display=swap');
+body {
+    background: whitesmoke;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Roboto+Condensed', sans-serif;
+    
+}
+
+.info-text p strong {
+    text-decoration: underline;
+    color: brown;
+    margin: 0px;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+
+.work {
+    border: 3px solid goldenrod;
+    background: white;
+    padding-left: 10px;
+    border-radius: 10%;
+    
+}
+
+.work h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row, .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 100%;
+    /* width: calc(50% - 30px); */
+}
+
+.form-row, .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: blue;
+}
+
+.form-group input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+h1 {
+    color: brown;
+}
+ol h1 {
+    color: white;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.hobbies {
+    background: yellowgreen;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+
+.info   {
+    margin: auto;
+    display: flex;
+}
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+.container {
+    max-width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.photo {
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.teaching {
+    padding: 15px 20px;
+    background: darkblue;
+    border: 2px solid gray;
+    color: aliceblue;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btn {
+    background: red;
+    color: black;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+a {
+    color: #a3e212;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: rgb(0, 255, 98);
+}
+
+table th:nth-child(odd), table th:nth-child(even) {
+    background: green;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: brown;
+    margin-bottom: 8px;
+}
